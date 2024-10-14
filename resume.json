@@ -1,236 +1,406 @@
 {
-  "meta": {
-    "theme": "elegant"
-  },
   "basics": {
-    "name": "Thomas Davis",
-    "label": "Web Developer",
-    "image": "https://avatars0.githubusercontent.com/u/416209?s=460&u=38f220a2c9c658141804f881c334c594eb1642ac&v=4",
-    "summary": "I'm a full stack web developer who can build apps from the ground up. I've worked mostly at startups so I am used to wearing many hats. I am a very product focussed developer who priotizes user feedback first and foremost. I'm generally very flexible when investigating new roles. ",
-    "website": "https://lordajax.com",
-    "email": "thomasalwyndavis@gmail.com",
+    "name": "Melisa K. Savich",
+    "label": "Security Research Engineer",
+    "email": "contact@melisasavich.com",
+    "phone": "+12489432251",
+    "website": "https://melisasavich.com",
+    "summary": "I am a cybersecurity professional with over 7 years of experience in research, development, and national security projects. I specialize in threat detection, vulnerability assessment, and system security, having contributed to cutting-edge solutions at Sandia National Laboratories while supporting academic initiatives. My expertise spans technical roles and collaborative efforts, driving innovations in secure systems and cybersecurity defense.",
     "location": {
-      "city": "Melbourne",
-      "countryCode": "AU"
+      "city": "Detroit Metropolitan Area",
+      "region": "MI"
     },
     "profiles": [
       {
-        "username": "ajaxdavis",
-        "url": "https://twitter.com/ajaxdavis",
-        "network": "twitter"
+        "network": "LinkedIn",
+        "username": "melisasavich",
+        "url": "https://www.linkedin.com/in/melisasavich"
       },
       {
-        "url": "https://github.com/thomasdavis",
-        "username": "thomasdavis",
-        "network": "github"
+        "network": "GitHub",
+        "username": "m3lixir",
+        "url": "https://github.com/m3lixir"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "m3lixir",
+        "url": "https://scholar.google.com/citations?user=deS7-_gAAAAJ"
       }
     ]
   },
-  "education": [
+  "projects": [
     {
-      "endDate": "2009-12-12",
-      "startDate": "2008-02-12",
-      "area": "Software Engineering (incomplete)",
-      "studyType": "Bachelors",
-      "institution": "The University of Queensland"
-    }
-  ],
-  "references": [
-    {
-      "reference": "Thomas was hired as a lead developer and, upon the leaving of our co-founder took over as CTO of Earbits. Thomas is, hands down, one of those A Players you hear of companies dying to hire. He is incredibly smart, not just at code but about everything from classical music to Chinese language and culture. Thomas is great to work with and, as a well established contributor to open source projects and several successful ventures, commands the respect of engineers at all levels. I would suggest doing anything you can to have him on your team.",
-      "name": "Joey Flores, Co-founder and CEO of Earbits, Inc."
-    },
-    {
-      "reference": "I've had the great pleasure of working with Thomas for the past three years at Earbits, and on a few side projects. Two years ago our CTO left on a moment's notice, Thomas saved our company by quickly stepping up to fill this role. He has been with our company through thick and thin and made serious personal sacrifices in order to help the company during tough times. He is a phenomenal hacker and a true team player. Highly recommended!",
-      "name": "Yotam Rosenbaum, SVP of Operations, Earbits, Inc."
-    },
-    {
-      "reference": "Thomas is an extremely talented engineer with a very broad range of skills and experience. From being a thought leader in the front-end community via backbonetutorials.com and cdnjs.com, to designing and implementing the API for cdnjs.com, working with Thomas has been fantastic learning experience. Thomas is truly a full stack develop, and his work output is incredible. If there is any opportunity to work with Thomas, I take it. He is the definition of an A player.",
-      "name": "Ryan Kirkman, Senior Software Engineer at Nerdwallet"
-    },
-    {
-      "reference": "On Thomas Davis... Hire this guy. Do not be fooled. Incredibly capable and fast. Plays well with others. Unbelievable at front-end work end programming but that is just the start. Visionary. Hire him before I do.",
-      "name": "Greg Davis"
-    }
-  ],
-  "skills": [
-    {
-      "keywords": [
-        "HTML / JSX",
-        "SCSS / CSS / BEM / Styled Components",
-        "Javascript / Typescript",
-        "React / Next",
-        "Redux / Apollo"
+      "name": "Technical Solutions & Digital Experience Architect",
+      "description": "Revitalized digital operations for 48 Flavors, a local ice cream shop, enhancing e-commerce functionality, boosting online orders, and increasing brand visibility.",
+      "highlights": [
+        "Boosted food delivery platform orders by 55% within 1 year by revamping menus, creating AI-assisted item descriptions, and designing e-commerce visuals, leading to a more user-friendly and visually appealing online ordering experience.",
+        "Optimized online visibility and operations by creating 2 websites using Google Sites and Square, managing Google Business Profile, and integrating 6 Google products for 48 Flavors' online debut.",
+        "Improved online cake ordering system by configuring a 24-hour preparation time, resulting in over 100 online cake orders over a 1-year period post-separation from the Baskin-Robbins franchise, driving revenue growth."
       ],
-      "level": "Senior",
-      "name": "Frontend"
-    },
-    {
-      "keywords": ["Node", "Ruby", "Python", "Postgres", "Redis", "Serverless"],
-      "level": "Senior",
-      "name": "Backend"
-    },
-    {
-      "keywords": ["AWS", "G Cloud", "Heroku", "Caching"],
-      "level": "Senior",
-      "name": "Devops"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Defender of the Internet",
-      "awarder": "Fight For The Future"
+      "keywords": [
+        "Google Business Profile",
+        "Google Cloud",
+        "Google Sites",
+        "BentoBox",
+        "Clover",
+        "Square",
+        "DoorDash",
+        "UberEats",
+        "Grubhub"
+      ],
+      "startDate": "2023-11-01",
+      "url": "https://www.48flavorsicecream.com",
+      "roles": [
+        "<FIXME ROLE>"
+      ],
+      "entity": "48 Flavors Ice Cream",
+      "type": "<FIXME TYPE>"
     }
   ],
   "work": [
     {
-      "summary": "Tokenized is a Bitcoin wallet for issuing, managing and trading digital tokens. I built out the front end which was packaged as an electron app. It was a difficult frontend to build because we store the users keys locally and used them to sign transactions and contracts.",
-      "website": "https://tokenized.com/",
-      "name": "Tokenized",
-      "location": "Melbourne",
-      "position": "Senior Javascript Developer",
-      "startDate": "2020-05-05",
-      "highlights": ["React", "Redux", "SCSS", "Product"]
-    },
-    {
-      "summary": "Blockbid is an Australian crypto currency exchange. I started off on the frontend but eventually became lead tech and worked on every moving piece of the exchange. I really enjoyed working with liquidity providers and connecting their platforms to help us achieve liquid markets.",
-      "website": "https://platform.blockbid.io",
-      "name": "Blockbid",
-      "location": "Melbourne",
-      "position": "Senior Javascript Developer",
-      "startDate": "2018-03-01",
-      "endDate": "2020-01-01",
+      "description": "Federally Funded Research and Development Center (FFRDC)",
+      "startDate": "2020-06",
+      "endDate": "2023-10",
+      "position": "R&D S&E, Cybersecurity",
+      "name": "Sandia National Laboratories",
+      "url": "https://www.sandia.gov",
+      "location": "Livermore, CA",
+      "summary": "Led innovative research and development in cybersecurity, focusing on threat detection, vulnerability assessments, and system security for critical infrastructure. Collaborated with multidisciplinary teams to deliver advanced solutions aligned with national security objectives.",
       "highlights": [
-        "React, Apollo, Styled Components",
-        "Node.js / Rails",
-        "Docker / Heroku / GCP",
-        "Used Figma for design and UX work",
-        "Optimizing markets with tens of millions of rows using SQL."
+        "Developed an ensemble fuzzing system that integrated 5-10 fuzzers, significantly improving threat detection and response.",
+        "Achieved 70-90% coverage on critical binary targets using AFL++ variants, meeting stringent security requirements.",
+        "Reduced debug time by 30% by enforcing development standards and leading backlog refinement efforts."
       ]
     },
     {
+      "description": "Federally Funded Research and Development Center (FFRDC)",
+      "startDate": "2018-06",
+      "endDate": "2020-05",
+      "position": "Critical Skills Recruiting Program Fellow",
+      "name": "Sandia National Laboratories",
+      "url": "https://www.sandia.gov",
+      "location": "Albuquerque, NM",
+      "summary": "Advanced critical technology initiatives while pursuing a fully funded Master's degree, contributing to Sandia's national security goals. Developed innovative solutions alongside technical teams to address pressing cybersecurity challenges.",
       "highlights": [
-        "Worked with Postgres, Redis and Dynamodb for storage.",
-        "Hosted on a mixture of Heroku Apps and EC2 servers.",
-        "Caching by Fastly and Cloudflare",
-        "Hybrid app supported on all platforms"
-      ],
-      "summary": "Built a very large and complex React / Redux application. It works on all platforms and has IOS/Android builds due to it being a PWA. (wrapped it in React Native though only implementing a WebView)",
-      "website": "https://listium.com",
-      "pinned": true,
-      "name": "Listium",
-      "position": "Developer",
-      "startDate": "2016-01-01",
-      "endDate": "2018-01-01"
+        "Created a robust framework in the ICS/SCADA modeling platform to facilitate Data Acquisition (DAQ) with Hardware-in-the-Loop (HITL), strengthening infrastructure security applications.",
+        "Conducted research in cyber modeling and simulation, focusing on high-consequence networks, high-value networks, embedded systems, and control systems."
+      ]
     },
     {
+      "description": "Federally Funded Research and Development Center (FFRDC)",
+      "startDate": "2017-05",
+      "endDate": "2018-05",
+      "position": "Center for Cyber Defenders Intern",
+      "name": "Sandia National Laboratories",
+      "url": "https://www.sandia.gov",
+      "location": "Albuquerque, NM",
+      "summary": "Supported national cybersecurity efforts, specializing in vulnerability assessments, malware analysis, and intrusion detection. Applied computer science expertise to solve complex software and hardware security challenges.",
       "highlights": [
-        "Millions of sites use the CDN in production",
-        "Larger market share than Yahoo's, Microsoft's and Google's javascript content distribution networks",
-        "We serve hundreds of billions request a month",
-        "Contains over 3000 popular Javascript libraries",
-        "Millions of developers visit the site per year"
-      ],
-      "pinned": true,
-      "summary": "Following Google's CDN for jQuery, we decided to start a CDN for the less popular Javascript frameworks. The CDN is community moderated and open source on GitHub. We secured a partnership with Cloudflare who now supports the infrastructure.",
-      "website": "http://www.cdnjs.com",
-      "name": "Cdnjs",
-      "position": "Co-Founder",
-      "startDate": "2011-01-08"
+        "Improved automated ELK dashboard deployment and monitoring within an ICS/SCADA platform, enhancing the analysis of cyber/physical impacts on critical infrastructure systems.",
+        "Implemented honeypots within an experimental cyber range designed to simulate and analyze sophisticated cyber threats."
+      ]
     },
     {
+      "startDate": "2017-09",
+      "endDate": "2018-04",
+      "position": "Instructional Aide for Introduction to Computer Security",
+      "name": "University of Michigan College of Engineering",
+      "description": "EECS 388: Introduction to Computer Security",
+      "url": "https://eecs388.org",
+      "location": "Ann Arbor, MI",
+      "summary": "Assisted in teaching computer security principles, providing support on coursework related to network vulnerabilities and secure system design. Guided students through practical exercises to deepen their understanding of cybersecurity threats.",
       "highlights": [
-        "Developed new tools for contacting congress",
-        "Brainstormed campaign ideas to raise maximum awareness about issues",
-        "Lots of social networking integration"
-      ],
-      "summary": "Hired to take EFF's campaigning to the next level by building an action centre in Ruby on Rails. The action centre is built around some large open source tools that lower the barrier to entry when contacting congress.",
-      "website": "http://www.eff.org",
-      "name": "Electronic Frontier Foundation",
-      "position": "Developer",
-      "startDate": "2014-04-01",
-      "endDate": "2016-01-01"
+        "Enhanced Cybersecurity course content and projects, ensuring alignment with educational objectives, resulting in an increase in student engagement and course satisfaction.",
+        "Oversaw the smooth administration of exams for 300+ students, managing writing, testing, grading, and testing locations, ensuring efficient processes and positive student experiences.",
+        "Supported student success by delivering effective answers to 10+ curriculum-related questions on Piazza daily, contributing to a dynamic learning atmosphere in computer science courses."
+      ]
     },
     {
+      "startDate": "2016-09",
+      "endDate": "2017-05",
+      "position": "Instructional Aide for Programming and Introductory Data Structures",
+      "name": "University of Michigan College of Engineering",
+      "description": "EECS 280: Programming and Introductory Data Structures",
+      "url": "https://eecs280.org",
+      "location": "Ann Arbor, MI",
+      "summary": "Led students through foundational programming and data structure concepts, offering individual support and troubleshooting. Simplified complex topics in lectures and helped students develop their coding skills.",
       "highlights": [
-        "Managed a small team of developers and designers",
-        "Built the entire frontend application with Backbone.js",
-        "Transferred all of the infrastructure from Heroku to AWS"
-      ],
-      "summary": "Started off as a front end developer but took on the role of CTO in early 2013. The application frontend is built with Javascript and organized as a single page application that talks to a collection of Rails web servers which are connected to MongoDB.",
-      "website": "http://www.earbits.com",
-      "name": "Earbits",
-      "position": "CTO",
-      "endDate": "2015-01-09",
-      "startDate": "2013-03-08"
+        "Managed exam logistics for 1000+ students, ensuring smooth processes and upholding academic integrity.",
+        "Expanded Stanford's MOSS with custom scripts, identifying 5-7% of projects as potential academic misconduct violations.",
+        "Led weekly sessions for 25 students, improving understanding of introductory programming concepts."
+      ]
     },
     {
-      "highlights": ["This resume is built with JSON Resume", "Over 3000 stars on Github", "Community developed themes", "Tens of thousands of users"],
-      "summary": "JSON Resume is a community driven open source initiative to create a JSON based standard for resumes. There is no reason why there can't be a common standard for writing a resume that can be extended with an ecosystem of open source tools.",
-      "website": "http://jsonresume.org",
-      "pinned": true,
-      "name": "JSON Resume",
-      "position": "Founder",
-      "startDate": "2014-04-01"
-    },
-    {
+      "startDate": "2016-05",
+      "endDate": "2016-08",
+      "position": "Grader for Programming and Introductory Data Structures",
+      "name": "University of Michigan College of Engineering",
+      "description": "EECS 280: Programming and Introductory Data Structures",
+      "url": "https://eecs280.org",
+      "location": "Ann Arbor, MI",
+      "summary": "Reviewed and graded coursework for introductory programming and data structures, ensuring adherence to technical standards. Provided detailed feedback to students to improve code efficiency and problem-solving techniques.",
       "highlights": [
-        "Generated  37,000,000 banner views",
-        "100, 000 phone calls to congress",
-        "500, 000 emails",
-        "250, 000 signatures"
-      ],
-      "summary": "Worked on many politically charged campaigns against mass surveillance. Not only technically challenging work but also a lot of networking and getting my hands dirty with politics.    Our biggest project was \"TheDayWeFightBack\"..",
-      "website": "http://www.taskforce.is",
-      "name": "Taskforce.is",
-      "position": "Developer",
-      "startDate": "2013-06-01",
-      "endDate": "2016-01-01"
+        "Graded weekly lab assignments for accuracy and course adherence.",
+        "Provided feedback on coding style, encouraging best practices."
+      ]
     },
     {
+      "description": "<FIXME DESCRIPTION>",
+      "startDate": "2016-01",
+      "endDate": "2016-12",
+      "position": "Undergraduate Research Assistant",
+      "name": "University of Michigan College of Literature, Science, and the Arts",
+      "url": "https://lsa.umich.edu",
+      "location": "Ann Arbor, MI",
+      "summary": "Contributed to research focused on data-driven solutions, conducting experiments and analyzing results to support ongoing academic projects. Developed algorithms and models to solve interdisciplinary research problems.",
       "highlights": [
-        "The site and blog combined have managed to receive over 200,000 visitors in 2014."
-      ],
-      "summary": "An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres. ",
-      "website": "http://www.dronehire.org",
-      "name": "Drone Hire",
-      "position": "Co-Founder",
-      "startDate": "2013-01-01"
+        "Conducted literature reviews, recommending relevant academic papers to support research.",
+        "Authored summaries and analyses to enhance understanding of research findings."
+      ]
     },
     {
-      "highlights": [
-        "Over two million unique visitors a year",
-        "25,000+ ebook downloads",
-        "300,000+ Youtube views"
-      ],
-      "summary": "I write tutorials and blog post regarding the popular Javascript framework Backbone.js. The tutorials cover a range of topics regarding front end development aimed at beginners, experts and anyone in between.",
-      "website": "http://backbonetutorials.com",
-      "name": "BackboneTutorials.com",
-      "position": "Founder",
-      "startDate": "2011-01-01",
-      "endDate": "2014-01-01"
+      "startDate": "2015-09",
+      "endDate": "2016-09",
+      "position": "Computer Operator",
+      "name": "University of Michigan Medical School",
+      "description": "Medical School Information Services - Help Me Now",
+      "url": "https://www.michiganmedicine.org",
+      "location": "Ann Arbor, MI",
+      "summary": "Provided technical support for faculty, staff, and students, resolving issues with computers and AV equipment. Managed help desk operations, handled equipment setups, and maintained the ticketing system for efficient troubleshooting.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "New York University",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
+      "startDate": "2018-09-01",
+      "endDate": "2020-05-20",
+      "score": "3.9/4.0",
+      "courses": [
+        "Design and Analysis of Algorithms I",
+        "Software Engineering I",
+        "Information Visualization",
+        "Penetration Testing and Vulnerability Analysis",
+        "Artificial Intelligence I",
+        "Computer Networking",
+        "Introduction to Offensive Security",
+        "Distributed Systems"
+      ]
     },
     {
-      "summary": "Ephox is a worldwide company who is heavily involved with the development of TinyMce and enterprise editors. My primary role included building front-end widgets and applications. Worked on a major product using Backbone.js as a base. Heavily involved in UI/UX design and wire-framing. Also spend a lot of time designing API specifications and documentation.",
-      "website": "http://ephox.com",
-      "name": "Ephox",
-      "position": "Front-end Developer",
-      "endDate": "2012-06-01",
-      "startDate": "2011-01-01"
+      "institution": "University of Michigan",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2015-01-01",
+      "endDate": "2018-04-26",
+      "score": "3.4/4.0",
+      "courses": [
+        "Elementary Programming Concepts",
+        "Discrete Math",
+        "Programming and Introductory Data Structures",
+        "Data Structures and Algorithms",
+        "Introduction to Computer Organization",
+        "Foundations of Computer Science",
+        "Introduction to Computer Security",
+        "Computing for Computer Scientists",
+        "Mobile App Development for Entrepreneurs",
+        "Introduction to Cryptography",
+        "Introduction to Operating Systems",
+        "Database Management Systems"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Taint-Driven Firmware Fuzzing of Embedded Systems",
+      "publisher": "New York University",
+      "releaseDate": "2020-05-15",
+      "url": "https://melisasavich.com/pubs/taint-driven-firmware-fuzzing-embedded-systems-thesis.pdf",
+      "summary": ""
+    },
+    {
+      "name": "CommPact: Evaluating the Feasibility of Autonomous Vehicle Contracts",
+      "publisher": "IEEE Vehicular Networking Conference (VNC)",
+      "releaseDate": "2018-12-05",
+      "url": "https://melisasavich.com/pubs/commpact-evaluating-autonomous-vehicle-contracts.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Taint-Driven Embedded Software Fuzzing",
+      "publisher": "RSA Conference",
+      "releaseDate": "2019-03-06",
+      "url": "https://melisasavich.com/pubs/taint-driven-embedded-software-fuzzing-poster.pdf",
+      "summary": "RSAC Security Scholar Poster Board Exhibition"
+    },
+    {
+      "name": "Artificial Network Traffic Generation",
+      "publisher": "Office of Scientific and Technical Information (OSTI)",
+      "releaseDate": "2017-07-26",
+      "url": "https://melisasavich.com/pubs/artificial-network-traffic-generation-poster.pdf",
+      "summary": ""
+    }
+  ],
+  "awards": [
+    {
+      "title": "Black Hat USA 2019 Student Scholarship",
+      "date": "2019-08-07",
+      "awarder": "Black Hat",
+      "summary": "The Black Hat USA Student Scholarship program offers top cybersecurity students the chance to attend the world's leading information security event. Nominated by industry expert Rebecca Lynch, I was provided with a complimentary pass to the Black Hat USA 2019 conference, where I participated in exclusive briefings, hands-on training, and technical sessions. This prestigious scholarship facilitated opportunities to engage with the latest cybersecurity research, network with industry leaders, and gain valuable insights into emerging trends and technologies."
+    },
+    {
+      "title": "RSAC 2019 Security Scholar",
+      "date": "2019-03-04",
+      "awarder": "RSA Conference",
+      "summary": "The RSA Conference Security Scholar program recognizes top cybersecurity students and provides them with opportunities to engage with leading experts and industry professionals at the RSA Conference. Scholars participate in exclusive events, such as expert dinners and roundtable discussions, and receive complimentary conference passes and travel accommodations. This prestigious program aims to enrich students' knowledge and professional networks while fostering discussions on critical cybersecurity topics."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Master"
+    },
+    {
+      "language": "Macedonian",
+      "fluency": "Master"
+    },
+    {
+      "language": "French",
+      "fluency": "Intermediate"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Core Competencies",
+      "level": "Master",
+      "keywords": [
+        "Analytical Reasoning",
+        "Creativity",
+        "Solution-Oriented Thinking",
+        "Stakeholder Engagement",
+        "Team Collaboration",
+        "Technical Writing"
+      ]
+    },
+    {
+      "name": "Cybersecurity Expertise",
+      "level": "Advanced",
+      "keywords": [
+        "Incident Response",
+        "Penetration Testing",
+        "Application Security",
+        "Cyber Threat Intelligence",
+        "Malware Analysis",
+        "Network Security"
+      ]
+    },
+    {
+      "name": "Vulnerability & Risk Management",
+      "level": "Advanced",
+      "keywords": [
+        "Vulnerability Research (osv.dev, NVD/CVE)",
+        "Threat Modeling",
+        "Risk Mitigation",
+        "Exploit Development",
+        "Secure Coding Practices"
+      ]
+    },
+    {
+      "name": "Programming & Scripting",
+      "level": "Intermediate",
+      "keywords": [
+        "Python",
+        "Bash",
+        "C/C++",
+        "Fuzzing",
+        "Binary Analysis",
+        "Reverse Engineering",
+        "Taint Analysis"
+      ]
+    },
+    {
+      "name": "DevOps & Integration",
+      "level": "Intermediate",
+      "keywords": [
+        "DevSecOps",
+        "GitHub Actions",
+        "CI/CD, Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Terraform",
+        "AWS",
+        "Cloud Security"
+      ]
+    },
+    {
+      "name": "Tools & Frameworks",
+      "level": "Advanced",
+      "keywords": [
+        "Wireshark",
+        "Burp Suite",
+        "Metasploit",
+        "Nessus",
+        "Splunk",
+        "ELK Stack (Elasticsearch, Logstash, Kibana)",
+        "SIEM solutions"
+      ]
+    },
+    {
+      "name": "Automation & Testing",
+      "level": "Advanced",
+      "keywords": [
+        "Automated Defenses",
+        "Continuous Security Testing",
+        "Vulnerability Scanning",
+        "Infrastructure as Code (IaC)",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Entrepreneurship",
+      "level": "Intermediate",
+      "keywords": [
+        "Business Development",
+        "Product Innovation",
+        "Industrial Research"
+      ]
     }
   ],
   "interests": [
     {
-      "name": "Gardening"
+      "name": "Security Operations & Threat Intelligence",
+      "keywords": [
+        "Emerging trends in Incident Response",
+        "Automation in Cybersecurity",
+        "Advancements in Malware Defense"
+      ]
     },
     {
-      "name": "Music / Jamming"
+      "name": "Vulnerability & Risk Management",
+      "keywords": [
+        "Exploring cutting-edge methods in Vulnerability Research",
+        "Threat Hunting",
+        "Open-Source Security Solutions"
+      ]
     },
     {
-      "name": "Reading / Writing"
+      "name": "Programming & Analysis",
+      "keywords": [
+        "Passion for improving Python skills",
+        "Learning advanced techniques in Fuzzing and Binary Analysis"
+      ]
     },
     {
-      "name": "Open Source"
+      "name": "DevOps & Integration",
+      "keywords": [
+        "Continuous learning in DevSecOps practices",
+        "Container security",
+        "CI/CD pipeline automation"
+      ]
     }
-  ]
+  ],
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/master/schema.json",
+  "meta": { "theme": "relaxed" }
 }
