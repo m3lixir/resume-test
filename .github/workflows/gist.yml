@@ -8,10 +8,22 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4.2.1
-
-    - name: Update resume.json (job)
-      uses: exuanbo/actions-deploy-gist@v1
-      with:
-        token: ${{ secrets.TOKEN }}
-        gist_id: da014a82b8da7e5f112d90c54157f496
-        file_path: resume.json
+    
+    - name: Deploy to Gist
+    # You may pin to the exact commit or the version.
+    # uses: exuanbo/actions-deploy-gist@47697fceaeea2006a90594ee24eb9cd0a1121ef8
+    uses: exuanbo/actions-deploy-gist@v1.1.4
+    with:
+      # Set personal access token for updating gist.
+      token: ${{ secrets.TOKEN }}
+      # Set id of the gist to be updated.
+      gist_id: da014a82b8da7e5f112d90c54157f496
+      # Set description of the gist.
+      gist_description: test description
+      # Set file name in the gist.
+      gist_file_name: resume.json
+      # Set path of the file to be deployed.
+      file_path: resume.json
+      # Set file type of the file to be deployed.
+      file_type: # optional, default is text
+          
