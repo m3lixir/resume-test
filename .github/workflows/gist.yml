@@ -3,7 +3,7 @@ name: Update resume.json
 on: push
 
 jobs:
-  update-resume-gist:
+  update-resume-gistt:
     runs-on: ubuntu-latest 
     steps:
     - name: Checkout
