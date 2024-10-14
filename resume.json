@@ -402,5 +402,5 @@
     }
   ],
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/master/schema.json",
-  "meta": { "theme": "relaxed" }
+  "meta": { "theme": "elegant" }
 }
