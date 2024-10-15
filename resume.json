@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "theme": "flat"
+  }
   "basics": {
     "name": "Melisa K. Savich",
     "label": "Security Research Engineer",
@@ -7,8 +10,11 @@
     "website": "https://melisasavich.com",
     "summary": "I am a cybersecurity professional with over 7 years of experience in research, development, and national security projects. I specialize in threat detection, vulnerability assessment, and system security, having contributed to cutting-edge solutions at Sandia National Laboratories while supporting academic initiatives. My expertise spans technical roles and collaborative efforts, driving innovations in secure systems and cybersecurity defense.",
     "location": {
-      "city": "Detroit Metropolitan Area",
-      "region": "MI"
+      "address": "",
+      "postalCode": "MI 48152",
+      "city": "Livonia",
+      "countryCode": "US",
+      "region": "Michigan"
     },
     "profiles": [
       {
@@ -23,7 +29,7 @@
       },
       {
         "network": "Google Scholar",
-        "username": "m3lixir",
+        "username": "deS7-_gAAAAJ",
         "url": "https://scholar.google.com/citations?user=deS7-_gAAAAJ"
       }
     ]
@@ -400,7 +406,5 @@
         "CI/CD pipeline automation"
       ]
     }
-  ],
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/master/schema.json",
-  "meta": {"theme": "relaxed" }
+  ]
 }
